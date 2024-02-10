@@ -1,0 +1,54 @@
+ion-content {
+  --ion-background-color: #000000; /* Couleur de fond générale */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-button {
+  --background: #000000; /* Couleur de fond noire */
+  --color: #ffffff; /* Couleur du texte blanche */
+}
+
+* {
+  font-style: italic; /* Met tout le texte en italique */
+}
+
+h2 {
+  color: #ffffff; /* Couleur du titre */
+  font-size: 1.8rem; /* Taille de police du titre */
+  margin-bottom: 10px; /* Marge en bas du titre */
+  font-style: italic; /* Mettre le texte en italique */
+  text-align: center; /* Centre le texte */
+}
+
+h4 {
+  color: #ffffff; /* Couleur du sous-titre */
+  font-size: 1.4rem; /* Taille de police du sous-titre */
+  margin-bottom: 20px; /* Marge en bas du sous-titre */
+  font-style: italic; /* Mettre le texte en italique */
+  text-align: center; /* Centre le texte */
+}
+
+ion-card {
+  background-color: #f7af6c; /* Couleur de fond de la carte */
+  border-radius: 5px; /* Bordure arrondie de la carte */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère de la carte */
+  padding: 15px; /* Espacement interne de la carte */
+  margin-bottom: 40px; /* Marge en bas de la carte */
+}
+
+ion-item {
+  --padding-start: 15; /* Supprime le padding à gauche des éléments ion-item */
+}
+
+ion-label {
+  font-size: 2rem; /* Taille de police des étiquettes */
+}
+
+ion-checkbox {
+  --background: #ffffff; /* Couleur de fond de la case à cocher */
+  --color-checked: #0acff1; /* Couleur de la coche lorsqu'elle est cochée */
+  --border-color-checked: #2d2ac4; /* Couleur de la bordure de la case à cocher lorsqu'elle est cochée */
+}

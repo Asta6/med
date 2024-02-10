@@ -1,0 +1,57 @@
+.center {
+  text-align: center;
+}
+
+ion-title {
+  text-align: center;
+}
+
+ion-content {
+  --ion-background-color: danger; /* Corrected spelling */
+  ion-list {
+         margin-top: -18px; /* Ajustez la valeur pour déplacer le texte vers le haut */
+       }
+}
+
+ion-item {
+  background-color: transparent;
+}
+
+.left {
+  text-align: right; /* Corrected property */
+}
+
+a {
+  color: blue;
+  text-align: right;
+}
+
+.pd {
+  padding: 3%; /* Added units */
+}
+
+#c {
+  background-color: #ffffff; /* Specify a background color */
+}
+
+#base {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center; /* Center the flex items */
+}
+
+.icon {
+  height: 250px;
+  position: relative;
+}
+
+.icon ion-icon {
+  position: absolute;
+  font-size: 9em;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

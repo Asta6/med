@@ -1,0 +1,21 @@
+
+<ion-content>
+  <h2 class="ion-text-center">Suivi de vos tâches quotidiennes</h2>
+  
+  <ion-card>
+    <ion-item *ngFor="let task of selectedTasks">
+      <ion-label>{{ task.name }}</ion-label>
+      <ion-datetime display-format="HH:mm" [(ngModel)]="task.notificationTime"></ion-datetime>
+      <ion-button color="danger" (click)="removeTask(task)">Supprimer</ion-button>
+      <ion-badge color="primary">{{ task.status }}</ion-badge>
+      <ion-button color="success" (click)="updateTaskStatus(task, 'completed')">Terminer</ion-button>
+      <ion-button color="warning" (click)="updateTaskStatus(task, 'in_progress')">En cours</ion-button>
+    </ion-item>
+  </ion-card>
+  <ion-button fill="outline" shape="round" expand="block" color="dark" (click)="validateTasks()">Valider les tâches</ion-button>
+
+
+  <ng-template #noTasks>
+    <ion-text color="black" class="ion-text-center">Aucune tâche sélectionnée.</ion-text>
+  </ng-template>
+</ion-content>

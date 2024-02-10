@@ -1,0 +1,43 @@
+
+<ion-content class="ion-padding">
+  
+  <div class="icon">
+    <ion-icon name="person-circle-outline"></ion-icon>
+  </div>
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Nom</ion-label>
+      <ion-input type="text" [(ngModel)]="signupData.firstName" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Prénom</ion-label>
+      <ion-input type="text" [(ngModel)]="signupData.lastName" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Nom d'utilisateur</ion-label>
+      <ion-input type="text" [(ngModel)]="signupData.username" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Mot de passe</ion-label>
+      <ion-input type="password" [(ngModel)]="signupData.password" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Confirmer le mot de passe</ion-label>
+      <ion-input type="password" [(ngModel)]="signupData.confirmPassword" required></ion-input>
+    </ion-item>
+    <br>  
+    <ion-button fill="outline" shape="round" expand="block" routerLink="/index0">S'inscrire</ion-button>
+    <ion-button fill="outline" shape="round" expand="block" routerLink="/connexion">Se connecter</ion-button>
+</ion-list>
+  <div class="flex">
+    <ion-button shape="round"> <ion-icon name="logo-facebook" slot="start"></ion-icon>
+       Facebook
+       </ion-button>
+    <ion-button color="dark" shape="round"> <ion-icon name="logo-google" slot="start"></ion-icon>
+      Google 
+    </ion-button>
+    </div>
+    
+
+</ion-content>

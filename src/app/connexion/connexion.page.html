@@ -1,0 +1,23 @@
+
+<ion-content class="ion-padding">
+
+  <div class="icon">
+    <ion-icon name="person-circle-outline"></ion-icon>
+  </div>
+
+        <ion-list>
+          <ion-item>
+            <ion-label position="floating">Nom d'utilisateur</ion-label>
+            <ion-input type="text" [(ngModel)]="loginData.username" required></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Mot de passe</ion-label>
+            <ion-input type="password" [(ngModel)]="loginData.password" required></ion-input>
+          </ion-item>
+        </ion-list>
+        <br>
+        <ion-button fill="outline" shape="round" expand="block" routerLink="/index1">Connexion </ion-button>
+  <p class="ion-text-center">
+    Vous n'avez pas de compte? <a routerLink="/inscription">Créer un compte</a>
+  </p>
+</ion-content>

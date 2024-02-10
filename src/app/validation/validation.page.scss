@@ -1,0 +1,36 @@
+ion-content {
+  --ion-background-color: #f7af6c; /* Couleur de fond générale */
+}
+
+ion-card {
+  margin: 20px; /* Marge autour de la liste */
+}
+
+ion-item {
+  background-color: #ffffff; /* Couleur de fond des éléments */
+  border-radius: 8px; /* Bordure arrondie des éléments */
+  margin-bottom: 10px; /* Marge en bas entre les éléments */
+  padding: 10px; /* Espacement interne des éléments */
+}
+
+ion-label {
+  font-weight: bold; /* Texte en gras */
+}
+
+ion-datetime {
+  margin-left: auto; /* Aligner le sélecteur de date à droite */
+}
+
+ion-button {
+  margin-left: 10px; /* Marge à gauche du bouton */
+  --background: #000000; /* Couleur de fond noire */
+  --color: #ffffff; /* Couleur du texte blanche */
+}
+
+ion-badge {
+  margin-left: 10px; /* Marge à gauche du badge */
+}
+
+.ion-text-center {
+  text-align: center; /* Centrer le texte */
+}
